@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import logo from '/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/logo.png'; 
 import background from '/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/background2.jpg'; 
 
+
 const Home = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const navigate = useNavigate(); // Define navigate using useNavigate
   
-    const toggleMenu = () => {
-      setMenuOpen(!menuOpen);
+    const handleGetStartedClick = () => {
+      navigate('/upload'); // Use navigate to go to the upload page
     };
   
     return (
@@ -17,25 +19,12 @@ const Home = () => {
           <h1 className="home-title">MunchRush</h1>
           <nav className="home-nav">
             <a href="/aboutus" className="home-nav-link">About Us</a>
-            <div className="menu-icon" onClick={toggleMenu}>
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
-            </div>
           </nav>
-          {menuOpen && (
-            <div className="dropdown-menu">
-              <a href="/" className="dropdown-link">Home</a>
-              <a href="/aboutus" className="dropdown-link">About Us</a>
-              <a href="/services" className="dropdown-link">Services</a>
-              <a href="/contact" className="dropdown-link">Contact</a>
-            </div>
-          )}
         </header>
         <main className="home-main">
           <div className="text-overlay">
             <h2>Turn Images into Recipes</h2>
-            <button className="get-started-button">
+            <button className="get-started-button" onClick={handleGetStartedClick}>
               GET STARTED
               <span className="play-icon">▶️</span>
             </button>
