@@ -58,7 +58,7 @@ MunchRush uses advanced AI to:
 ## 📱 Screenshots
 
 ### Home Screen
-![Home Screen](placeholder-for-home-screen.png)
+![Home Screen](HomeScreen.png)
 
 ### Recipe Generation
 ![Recipe Generation](placeholder-for-recipe-generation.png)
