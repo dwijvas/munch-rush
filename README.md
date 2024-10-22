@@ -114,7 +114,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Link: [https://github.com/yourusername/munch-rush](https://github.com/dwijvas/munch-rush)
+Project Link: [/munch-rush](https://github.com/dwijvas/munch-rush)
+Linkedin: [DWIJ](https://www.linkedin.com/in/dwij-vasisth/) | [Anandiya](https://www.linkedin.com/in/anandiya-sheel-diwan-423455228/)
 
 ---
 Made with ❤️ for hungry developers everywhere
