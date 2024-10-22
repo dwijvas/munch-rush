@@ -1,0 +1,2 @@
+1. Custom trained mistral model
+2. Custon trained Computer model
