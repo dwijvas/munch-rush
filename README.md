@@ -61,7 +61,7 @@ MunchRush uses advanced AI to:
 ![Home Screen](https://github.com/dwijvas/munch-rush/blob/main/Screenshots/HomeScreen.png)
 
 ### Recipe Generation
-![Recipe Generation](placeholder-for-recipe-generation.png)
+![Recipe Generation](https://github.com/dwijvas/munch-rush/blob/main/Screenshots/RecipeGeneration.png)
 
 ### Chat Interface
 ![Chat Interface](placeholder-for-chat-interface.png)
