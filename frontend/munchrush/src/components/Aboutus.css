@@ -1,7 +1,7 @@
 .aboutus-container {
     position: relative;
     height: 100vh;
-    background: url('/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/background2.jpg') no-repeat center center/cover; /* Background image */
+    background: url('/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/background2.jpg') no-repeat center center/cover;
     color: white;
     background-size: cover;
     background-position: center;

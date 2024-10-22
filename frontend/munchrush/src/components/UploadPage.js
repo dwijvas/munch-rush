@@ -1,23 +1,34 @@
 // UploadPage.js
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './UploadPage.css';
-import logo from '/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/logo.png'; // Full path to the logo
+import logo from '/Users/dwijv/Documents/GitHub/munch-rush/frontend/munchrush/src/pictures/logo.png';
 
 const UploadPage = () => {
   const [selectedFile, setSelectedFile] = useState(null);
+  const navigate = useNavigate();
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (selectedFile) {
-      // Handle the file upload logic here, e.g., send it to the server
-      console.log('File selected:', selectedFile);
+      // Simulate ingredient recognition (replace with actual model inference)
+      const recognizedIngredients = await recognizeIngredients(selectedFile);
+      // Navigate to the output page with the recognized ingredients
+      navigate('/output', { state: { ingredients: recognizedIngredients } });
     } else {
       alert('Please select a file to upload');
     }
+  };
+
+  // Dummy function to simulate recognition (replace with actual recognition logic)
+  const recognizeIngredients = async (file) => {
+    // Here you would add the logic to run your model on the uploaded file
+    // For demonstration, let's return a static list
+    return ['Onion', 'Tomato', 'Lettuce', 'Cucumber' ];
   };
 
   return (
