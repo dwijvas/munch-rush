@@ -28,7 +28,7 @@ const UploadPage = () => {
   const recognizeIngredients = async (file) => {
     // Here you would add the logic to run your model on the uploaded file
     // For demonstration, let's return a static list
-    return ['Onion', 'Tomato', 'Lettuce', 'Cucumber' ];
+    return ['Basil', 'Tomato', 'Onion', 'Garlic' ];
   };
 
   return (
