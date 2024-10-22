@@ -6,13 +6,15 @@ body {
   }
   
   .home-container {
-    background-color: black;
-    color: white;
+    position: relative;
     height: 100vh;
     background-size: cover;
     background-position: center;
-    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
   }
+  
   
   .home-container::before {
     content: '';
@@ -24,6 +26,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
   }
+  
   
   .home-header {
     position: relative;
@@ -95,10 +98,11 @@ body {
   }
   
   .home-nav-link {
-    color: white;
+    margin: 0 15px;
     text-decoration: none;
-    font-size: 2rem;
-    margin-right: 30px; 
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
   }
   
   .menu-icon {
