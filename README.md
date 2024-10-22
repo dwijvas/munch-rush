@@ -1,6 +1,6 @@
 # 🍳 MunchRush
 
-![MunchRush Banner](placeholder-for-banner-image.png)
+![MunchRush Banner](https://github.com/dwijvas/munch-rush/blob/main/Screenshots/MunchrushLogo.png)
 
 Transform your random ingredients into authentic Indian culinary masterpieces! MunchRush is an AI-powered recipe generator that understands Indian cooking styles, spices, and methods.
 
@@ -12,7 +12,6 @@ We've all been there:
 - Craving something delicious but don't know where to start
 - Need healthy alternatives to midnight munchies
 
-![Problem Statement](placeholder-for-problem-statement-image.png)
 
 ## ✨ Solution
 
